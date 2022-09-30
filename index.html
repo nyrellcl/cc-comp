@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS, TailwindCSS, JavaScript, Front-End Developer, Web Development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <title>Frontend Mentor | Stats preview card component</title>
+
+</head>
+
+<body class="bg-main">
+    <section id="card-container" class="flex rounded-lg flex-col-reverse items-center justify-center h-screen mx-6 lg:flex lg:flex-row lg:rounded-lg lg:h-screen lg:items-center lg:justify-center">
+        <div id="content-container" class="bg-card text-center lg:h-card-height">
+            <h1 class="text-white font-bold font-inter text-3xl mx-8 mt-10 mb-4 lg:text-4l lg:mt-m lg:mr-mr-h1 lg:mb-mar lg:ml-mar-2 lg:w-h1-width lg:h-h1-height lg:text-left">
+                Get <span class="text-accent">insights</span> that help your business grow
+            </h1>
+            <p class="font-inter text-white text-base mx-8 mb-10 leading-6 lg:text-left lg:w-p-width lg:h-p-height lg:mr-pr lg:mb-mar-2 lg:ml-m">
+                Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+            </p>
+            
+            <div id="stats" class="flex flex-col items-center justify-evenly gap-6 mb-8 lg:flex lg:flex-row">
+                <div>
+                    <h2 class="text-white font-inter font-bold mb-0 5">10k+</h2>
+                    <span class="text-stat font-lexend text-xs font-normal uppercase tracking-wider">Companies</span>
+                </div>
+                <div>
+                    <h2 class="text-white font-inter font-bold mb-0 5">314</h2>
+                    <span class="text-stat font-lexend text-xs font-normal uppercase tracking-wider">Templates</span>
+                </div>
+                <div>
+                    <h2 class="text-white font-inter font-bold mb-0 5">12M+</h2>
+                    <span class="text-stat font-lexend text-xs font-normal uppercase tracking-wider">Queries</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="hero-image">
+            <img class="rounded-t-lg block lg:hidden" src="./assets/image-header-mobile.jpg" alt="image-header-mobile">
+            <img class="rounded-r-lg hidden lg:block" src="./assets/image-header-desktop.jpg" alt="image-header-desktop">
+        </div>
+
+    </section>
+
+
+
+    <div class="text-center text-white">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.nyrellcl.com/">Nyrell Leonor</a>.
+      </div>
+</body>
+</html>
